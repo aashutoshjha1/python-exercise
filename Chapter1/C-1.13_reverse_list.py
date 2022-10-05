@@ -1,4 +1,4 @@
-#!/usr/env python3
+#!/usr/bin/env python3
 def reverse_list(n:list):
      """ Create reverse of list without using inbuilt function"""
      reverse_list = []
