@@ -3,7 +3,10 @@
 class Flower:
 
     def __init__(self, name: str, petals: float, price: int):
-        self.name = name
+        if isinstance(name, str):
+             self.name = name
+        else:
+            print("name should be string")
         self.petals = petals
         self.price = price
         
@@ -26,11 +29,11 @@ class Flower:
         return self.price
         
 
-flower_obj = Flower("rose", 5.0, 10)
+flower_obj = Flower(6, 5, 10)
 print(flower_obj.get_flowername())
 print(flower_obj.get_flowerpetals())
 print(flower_obj.get_flowerprice())
-flower_obj.set_name("lilly")
+flower_obj.set_name(5)
 print(flower_obj.get_flowername())
 flower_obj.set_petals("new")
 print(flower_obj.get_flowerpetals())
