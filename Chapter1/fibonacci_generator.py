@@ -26,5 +26,6 @@ list1 = []
 for i in range(10):
     list1.append(next(iter_obj))    
 print(list1)
+print(gen_fin.__doc__)
 
 
