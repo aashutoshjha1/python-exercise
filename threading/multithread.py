@@ -3,7 +3,7 @@
 import time
 import threading
 
-count = 500000
+count = 50000000
 
 start = time.time()
 

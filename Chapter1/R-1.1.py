@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
+
 def is_multiple(n, m):
+
     """ this function to check if n is multiple of m.
         return True if it is, else return false.
     """
