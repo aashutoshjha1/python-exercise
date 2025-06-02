@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 print("enter no of row for pattern")
 n = int(input())
