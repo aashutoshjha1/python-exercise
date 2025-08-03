@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+
+def binary_search(seq, num):
+    
+    low = 0
+    high = len(seq) -1
+    if low == high:
+       if low == num:
+          return "number found"
+       else:
+          return "not found"
+    print(mid)
+    while low <= high:
+       mid = low+high //2
+       if seq[mid] == num:
+          return "found"
+       if seq[mid] < num:
+          low = seq[0]
+          high = seq[mid-1]
+       else:
+           low = seq[mid+1]
+           high = seq[]
+       mid = mid//2
+    return "not found"    
+
+
+seq = [2,3,4,5,6,8]
+num = 4
+print(binary_search(seq, num))
+
